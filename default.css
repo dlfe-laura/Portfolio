@@ -65,6 +65,7 @@ h4:hover{
 .pics {
     float: right;
     width: 360px;
+    right: 10%;
 }
 
 .presentation-pics{
