@@ -62,14 +62,11 @@ h4:hover{
 
 }
 
-.nav-pres {
-    position: absolute;
-    right: 10%;
-}
-
 .pics {
     float: right;
     width: 360px;
+    position: absolute;
+    right: 10%;
 }
 
 .presentation-pics{
