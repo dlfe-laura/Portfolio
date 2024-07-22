@@ -2,7 +2,6 @@ body{background-color: #ffde59;
 } /* The background colour of the main page */
 
 /*Let's set the typography of the paragraph anf titles for this page*/
-
 @font-face { /*We import the type of fonts*/
     font-family: "Aileron";
     font-style: normal;
@@ -16,14 +15,12 @@ body{background-color: #ffde59;
 }
 
 /*Set h1, h2*/
-
 h1, h2 {color: black;
 font-size: large;
 font-family: "Ramillas";
 }
 
 /*Now let's set each of the titles*/
-
 #first_title {
     font-size: 80pt;
     font-weight: 300;
@@ -34,7 +31,8 @@ font-family: "Ramillas";
     font-weight: lighter;
 }
 
-/* Let's organize the text and pictures*/
+
+/* Let's organize the text and pictures (class)*/
 
 .container {
     display: grid;
@@ -72,7 +70,6 @@ font-family: "Ramillas";
 
 
 /*Let's position and modify the contact items*/
-
 .contact-item {
     color: black;
     font-family: "Aileron";
@@ -84,7 +81,6 @@ font-family: "Ramillas";
 }
 
 /*Let's edit the logos for the contacts*/
-
 .logos img {
     padding: 7px;
     width: 30px;
