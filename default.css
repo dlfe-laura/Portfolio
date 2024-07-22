@@ -33,7 +33,6 @@ font-family: "Ramillas";
 
 
 /* Let's organize the text and pictures (class)*/
-
 .container {
     display: grid;
     align-items: center; 
@@ -70,7 +69,7 @@ font-family: "Ramillas";
 
 
 /*Let's position and modify the contact items*/
-.contact-item {
+/*.contact-item {
     color: black;
     font-family: "Aileron";
     font-size: 14pt;
@@ -81,7 +80,7 @@ font-family: "Ramillas";
 }
 
 /*Let's edit the logos for the contacts*/
-.logos img {
+/*.logos img {
     padding: 7px;
     width: 30px;
     position: relative;
