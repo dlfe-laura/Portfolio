@@ -39,12 +39,12 @@ font-family: "Ramillas";
     width: 90%; /* to adjust to the device*/
 }
 
-.nav {
+/*.nav {
     display: grid;
     align-items: center; 
     grid-template-columns: 1fr 1fr;
     column-gap: 5px;
-}
+}*/
 
 .nav { /*Don't forget to add the type of heading or paragraph*/
     color: black;
