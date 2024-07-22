@@ -62,7 +62,7 @@ a:link{
 
 a:visited{
     text-decoration: none;
-    color: none;
+    color: black;
 }
 
 h4:hover{
