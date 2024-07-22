@@ -46,7 +46,7 @@ font-family: "Ramillas";
     column-gap: 5px;
 }
 
-.nav h4 { /*Don't forget to add the type of heading or paragraph*/
+.nav { /*Don't forget to add the type of heading or paragraph*/
     color: black;
     font-family: "Aileron";
     font-size: 14pt;
@@ -55,7 +55,7 @@ font-family: "Ramillas";
     transition: 0.2s;
     transition: transform 250ms;
 }
-.nav h4:hover{
+.nav:hover{
     color: #85C7F2; /*changes color when mouse on top*/
     transform: translateX(10px); /*moves the text to the right when mouse on top*/
 
