@@ -90,7 +90,9 @@ a:active{
     justify-content: center; /* align horizontal */
 }
 
-
+.about-text{
+    margin-right: 75pt;
+}
 
 /*Let's position and modify the contact items*/
 /*.contact-item {
