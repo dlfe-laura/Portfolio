@@ -56,10 +56,22 @@ font-family: "Ramillas";
     transition: 0.2s;
     transition: transform 250ms;
 }
+h4:link{
+    text-decoration: none;
+}
+
+h4:visited{
+    text-decoration: none;
+}
+
 h4:hover{
     color: #85C7F2; /*changes color when mouse on top*/
     transform: translateX(10px); /*moves the text to the right when mouse on top*/
 
+}
+
+h4:active{
+    text-decoration: none;
 }
 
 .pics {
