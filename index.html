@@ -3,6 +3,7 @@
 <html> <!--opening element of the document --> 
     <html lang="en"> <!--set language -->
 
+    <!--HEAD STARTS-->
     <head>
         <title id="title">My webpage</title>  <!--create the title-->
         <link rel="stylesheet" type="text/css" href="default.css">   <!--link the css file-->
@@ -16,32 +17,34 @@
         " style="margin-left: 5pt;">de la Fuente Esteban</h2><br>
     </head>
 
+    <!--BODY STARTS-->
     <body>
-        
+    <div class="wrapper">  <!--to create a margin all around the page-->  
 
+        <div class="nav-pres">
 
-        <!--let's divide the next section into two-->
-        <div style="width: 50%;">
+            <h4 class="nav" target="_self">ABOUT ME</h4>
+            <h4 class="nav" target="_self">PROJECTS</h4>
+            <h4 class="nav" target="_self">CONTACT</h4>
 
-            <div class="container">
-                <div class="items-properties" style="margin-left: 85pt;">
-                    <h4 class="studies-item" target="_self" >ABOUT ME</h4> 
-                    <h4 class="experience-item" target="_self" >PROJECTS</h4>
-                    <h4 class="certificates-item" target="_self" >CONTACT</h4>
-                </div>
+            <br>
+            <img id="solder" width="360px" src="/Users/lauradelafuente/Desktop/HTML/website/solder.jpg" alt="Woman soldering a solar deck from a solar car."/>
+            <img id="panel" width="360px" src="/Users/lauradelafuente/Desktop/HTML/website/panel.jpg" alt="Woman working with solar panels."/>
 
         </div>
 
-        <div style="width: 50%;">
+        <!--<div class="nav">
+            <div class="items-properties" style="margin-left: 85pt;">
+                <h4 class="studies-item" target="_self" >ABOUT ME</h4> 
+                <h4 class="experience-item" target="_self" >PROJECTS</h4>
+               <h4 class="certificates-item" target="_self" >CONTACT</h4>
+            </div>-->      
 
-                <div class="presentation-pics">
-                    <img id="solder" width="360px" src="/Users/lauradelafuente/Desktop/HTML/website/solder.jpg" alt="Woman soldering a solar deck from a solar car."/>
-                    <img id="panel" width="360px" src="/Users/lauradelafuente/Desktop/HTML/website/panel.jpg" alt="Woman working with solar panels."/>
-                </div>
-        </div>
-        
-        </div>
-        
+        <!--<div class="presentation-pics">
+            <img id="solder" width="360px" src="/Users/lauradelafuente/Desktop/HTML/website/solder.jpg" alt="Woman soldering a solar deck from a solar car."/>
+            <img id="panel" width="360px" src="/Users/lauradelafuente/Desktop/HTML/website/panel.jpg" alt="Woman working with solar panels."/>
+        </div>-->
+
         
        <!-- <div class="logos">
             <h4 class="contact-item" >CONTACT</h4>
@@ -49,12 +52,11 @@
             <a href="https://www.linkedin.com/in/laura-dlf/" target="_blank"><img class="contact2" src="/Users/lauradelafuente/Desktop/HTML/website/linkedin.png" alt="linkedin logo"></a>
             <a href="https://github.com/dlfe-laura" target="_blank"><img class="contact3" src="/Users/lauradelafuente/Desktop/HTML/website/github.png" alt="github logo"></a>
         </div>-->
-
-        <div class="slideshow"> <!--have create like a table -->
            
 
-        </div>
+        </div> <!--for the wrapper-->
 
+    </div>
     </body>
 
 </html> <!--closing element of the document --> 

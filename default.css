@@ -33,14 +33,20 @@ font-family: "Ramillas";
 
 
 /* Let's organize the text and pictures (class)*/
-.container {
+
+.wrapper {
+    margin: auto;
+    width: 90%; /* to adjust to the device*/
+}
+
+.nav {
     display: grid;
     align-items: center; 
     grid-template-columns: 1fr 1fr;
     column-gap: 5px;
 }
 
-.items-properties h4 { /*Don't forget to add the type of heading or paragraph*/
+.nav h4 { /*Don't forget to add the type of heading or paragraph*/
     color: black;
     font-family: "Aileron";
     font-size: 14pt;
@@ -49,14 +55,10 @@ font-family: "Ramillas";
     transition: 0.2s;
     transition: transform 250ms;
 }
-.items-properties h4:hover{
+.nav h4:hover{
     color: #85C7F2; /*changes color when mouse on top*/
     transform: translateX(10px); /*moves the text to the right when mouse on top*/
 
-}
-
-.solder {
-    float: left;
 }
 
 .presentation-pics{
