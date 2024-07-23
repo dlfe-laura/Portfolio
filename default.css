@@ -62,7 +62,7 @@ font-family: "Ramillas";
     content: '';
     display:block;
     top: -10px;
-    width: 0%;
+    width: 100%;
     left: 0%;
 }
 
