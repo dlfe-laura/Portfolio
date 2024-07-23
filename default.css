@@ -66,8 +66,8 @@ a:visited{
 }
 
 a:hover{
-    text-decoration: none;
     color: #85C7F2;
+    text-decoration: none;
 }
 
 h4:hover{
