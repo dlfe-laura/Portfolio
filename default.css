@@ -71,7 +71,7 @@ a.nav:hover{
 
 }
 
-a.first_title, a.second_title: :hover{
+a.first_title, a.second_title:hover{
     text-decoration: none
 }
 
