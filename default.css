@@ -63,6 +63,7 @@ a:link{
 a:visited{
     text-decoration: none;
     color: black;
+    display: inline-block;
 }
 
 .nav a:hover{
