@@ -61,7 +61,7 @@ font-family: "Ramillas";
 .nav a:hover:before{
     content: '';
     display:block;
-    top:0%;
+    top: -10px;
     width: 0%;
     left: 0%;
 }
