@@ -72,8 +72,7 @@ h4:hover{
 }
 
 a:hover{
-    color: #85C7F2; /*changes color when mouse on top*/
-    transform: translateX(10px); /*moves the text to the right when mouse on top*/
+    text-decoration: none;
 }
 
 a:active{
