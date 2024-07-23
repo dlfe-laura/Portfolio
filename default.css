@@ -52,10 +52,19 @@ font-family: "Ramillas";
     font-family: "Aileron";
     font-size: 14pt;
     width: 300pt;
+    position: relative;
     /*padding: 0px 0px 0px;*/
     transition: 0.2s;
     transition: transform 250ms;
 }
+
+.nav a:hover:before{
+    content: '';
+    display:block;
+    top:0%;
+    left: 0%;
+}
+
 a:link{
     text-decoration: none;
 }
