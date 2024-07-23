@@ -66,15 +66,14 @@ a:visited{
 }
 
 .nav a:hover{
-    color: #85C7F2;
+    color: #85C7F2; /*changes color when mouse on top*/
+    transform: translateX(10px); /*moves the text to the right when mouse on top*/
     text-decoration: none;
 }
 
-h4:hover{
+/*h4:hover{
     color: #85C7F2; /*changes color when mouse on top*/
-    transform: translateX(10px); /*moves the text to the right when mouse on top*/
-
-}
+    /*transform: translateX(10px); /*moves the text to the right when mouse on top*/
 
 a:active{
     text-decoration: none;
