@@ -5,13 +5,13 @@ body{background-color: #ffde59;
 @font-face { /*We import the type of fonts*/
     font-family: "Aileron";
     font-style: normal;
-    src: local("Aileron-SemiBold"), url(https://github.com/dlfe-laura/Portfolio/blob/main/Aileron-SemiBold.woff), format(".woff");
+    src: local("Aileron-SemiBold"), url(https://raw.githack.com/dlfe-laura/Portfolio/main/Aileron-SemiBold.woff), format(".woff");
 }
 
 @font-face {
     font-family: "Ramillas" ;
     font-style: normal;
-    src:local("Ramillas-Regular") url(https://github.com/dlfe-laura/Portfolio/blob/main/Ramillas-Regular.ttf), format(".tff");
+    src:local("Ramillas-Regular") url(https://raw.githack.com/dlfe-laura/Portfolio/main/Ramillas-Regular.ttf), format(".tff");
 }
 
 /*Set h1, h2*/
