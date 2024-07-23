@@ -51,7 +51,7 @@ font-family: "Ramillas";
     color: black;
     font-family: "Aileron";
     font-size: 14pt;
-    width: 1750pt;
+    width: 750pt;
     /*padding: 0px 0px 0px;*/
     transition: 0.2s;
     transition: transform 250ms;
@@ -63,7 +63,8 @@ a:link{
 a:visited{
     text-decoration: none;
     color: black;
-    display: inline-block;
+    display: inline-block; /*creates boxes that automatically wrap text 
+    to give them space and set them apart when beside other content.*/
 }
 
 .nav a:hover{
@@ -94,6 +95,10 @@ a:active{
 
 .about-text{
     margin-right: 75pt;
+}
+
+.logos-contact{
+    width: 100px;
 }
 
 /*Let's position and modify the contact items*/
