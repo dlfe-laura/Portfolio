@@ -40,20 +40,12 @@ font-family: "Ramillas";
     width: 90%; /* to adjust to the device*/
 }
 
-/*.nav {
-    display: grid;
-    align-items: center; 
-    grid-template-columns: 1fr 1fr;
-    column-gap: 5px;
-}*/
-
 .nav { /*Don't forget to add the type of heading or paragraph*/
     color: black;
     font-family: "Aileron";
     font-size: 14pt;
-    width: 300pt;
+    width: 200pt;
     position: relative;
-    /*padding: 0px 0px 0px;*/
     transition: 0.2s;
     transition: transform 250ms;
 }
@@ -109,15 +101,4 @@ a:active{
 
 .logos-contact{
     width: 100px;
-}
-
-/*Let's position and modify the contact items*/
-/*.contact-item {
-    color: black;
-    font-family: "Aileron";
-    font-size: 14pt;
-    padding: 0px 0px 0px;
-    position: relative;
-    left: 920pt;
-    top: 30pt;
 }
