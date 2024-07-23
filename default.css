@@ -100,7 +100,7 @@ a:active{
 }
 
 .logos-contact{
-    display: block;
+    display: block; /*it starts on a new line and takes up the available screen width*/
     margin-left: auto;
     margin-right: auto;
 }
