@@ -65,14 +65,14 @@ a:visited{
     color: black;
 }
 
+a:hover{
+    text-decoration: none;
+}
+
 h4:hover{
     color: #85C7F2; /*changes color when mouse on top*/
     transform: translateX(10px); /*moves the text to the right when mouse on top*/
 
-}
-
-a:hover{
-    text-decoration: none;
 }
 
 a:active{
