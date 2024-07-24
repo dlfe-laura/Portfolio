@@ -99,16 +99,19 @@ a:active{
     margin-right: 75pt;
 }
 
-.container{ /* Three image containers (use 25% for four, and 50% for two, etc) */
-    display:block;
-    float: left;
-    width: 33.33%;
-    padding: 5px;
+.logos-contact {
+    display: flex;
+    justify-content: center; /* Center align the logos */
+    align-items: center;
+    gap: 20px; /* Space between the logos */
 }
 
-.logos-contact::after{ /*This is necessary when you want an element after a floated element to sit below the float*/
-    content: "";
-    clear: both;
-    display: table;
+.logos-contact .container {
+    display: flex;
+}
+
+.logos-contact img {
+    width: 50px; /* Adjust the size of the logos */
+    height: auto;
 }
 
