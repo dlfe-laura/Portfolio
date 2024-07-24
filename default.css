@@ -103,7 +103,7 @@ a:active{
     display: flex;
     justify-content: center; /* Center align the logos */
     align-items: center;
-    gap: 35px; /* Space between the logos */
+    gap: 50px; /* Space between the logos */
 }
 
 .logos-contact .container {
