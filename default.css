@@ -6,7 +6,7 @@ body{background-color: #ffde59;
     font-family: "Aileron";
     font-style: normal;
     src: local("Aileron-SemiBold"), url(https://raw.githack.com/dlfe-laura/Portfolio/main/Aileron-SemiBold.woff), format("woff");
-}
+} /*using raw.github.com for the src of the fonts*/
 
 @font-face {
     font-family: "Ramillas" ;
@@ -22,11 +22,13 @@ font-family: "Ramillas";
 
 /*Now let's set each of the titles*/
 #first_title {
+    color: black;
     font-size: 80pt;
     font-weight: 300;
 }
 
 #second_title {
+    color: black;
     font-size: 40pt;
     font-weight: lighter;
 }
