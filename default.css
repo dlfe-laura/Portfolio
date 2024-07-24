@@ -100,8 +100,8 @@ a:active{
 }
 
 .logos-contact{
-    /*display: block; /*it starts on a new line and takes up the available screen width*/
-    width: 100px;
+    display: block; /*it starts on a new line and takes up the available screen width*/
+    width: 80%;
     /*margin-left: auto;
     margin-right: auto;*/
 }
