@@ -104,10 +104,10 @@ a:active{
     column-gap: 20px;
 }
 
-.about-pic{
+/*.about-pic{
     position: sticky;
     top: 10px;
-}
+}*/
 
 .about-pic img{
     height: 518.406px;
