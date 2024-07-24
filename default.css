@@ -105,10 +105,14 @@ a:active{
 }
 
 .about-pic{
-    height: 518.406px;
-    width: 400px;
     position: sticky;
     top: 10px;
+}
+
+.about-pic img{
+    height: 518.406px;
+    width: 400px;
+    object-fit: cover;
 }
 
 .about-text{
