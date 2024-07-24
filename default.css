@@ -110,8 +110,8 @@ a:active{
 }*/
 
 .about-pic{
-    width: 400px;
-    height: 518.406px;
+    max-width: 31.25%;
+    height: auto;
 }
 
 .about-text{
