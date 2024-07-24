@@ -99,19 +99,21 @@ a:active{
 
 .about-container{
     display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
+    align-items: start;/* Align items at the start of each row */
+    grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
+    column-gap: 20px;
 }
 
 .about-pic{
-    width: 400px;
+    width: 100%;
     height: auto;
+    max-width: 400px;
     position: sticky;
     top: 10px;
 }
 
 .about-text{
+    grid-column: span 2; /* Text spans two columns */
     margin-right: 75pt;
 }
 
