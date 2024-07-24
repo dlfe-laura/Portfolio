@@ -106,6 +106,8 @@ a:active{
 
 .about-pic{
     width: 400px;
+    max-width: 20%;
+    max-height: 20%;
     position: sticky;
     top: 10px;
 }
