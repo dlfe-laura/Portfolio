@@ -112,9 +112,9 @@ a:active{
 }
 
 .about-pic{
+    object-fit: cover;
     max-width: 31.25%;
     height: auto;
-    object-fit: cover;
 }
 
 .about-text{
