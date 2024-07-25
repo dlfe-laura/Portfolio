@@ -106,10 +106,10 @@ a:active{
     column-gap: 20px;
 }
 
-/*.about-pic{
+.about-pic{
     position: sticky;
     top: 10px;
-}*/
+}
 
 .about-pic{
     max-width: 31.25%;
