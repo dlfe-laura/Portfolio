@@ -113,7 +113,8 @@ a:active{
 
 .about-pic{
     max-width: 31.25%;
-    height: 565.844px;
+    height: auto;
+    object-fit: cover;
 }
 
 .about-text{
