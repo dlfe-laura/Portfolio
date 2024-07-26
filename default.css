@@ -119,7 +119,7 @@ a:active{
 
 .about-text{
     grid-column: span 2; /* Text spans two columns */
-    margin-right: 75pt;
+    margin-right: 45pt;
 }
 
 /*CONTACT PAGE*/
