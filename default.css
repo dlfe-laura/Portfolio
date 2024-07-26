@@ -103,7 +103,7 @@ a:active{
 .about-container{
     display: grid;
     align-items: start;/* Align items at the start of each row */
-    grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
+    grid-template-columns: 440px 1fr 1fr; /* First column fixed at 440px, others flexible */
     column-gap: 20px;
 }
 
