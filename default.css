@@ -113,8 +113,8 @@ a:active{
 }
 
 .about-pic img{
-    max-width: 100%;
-    height: auto;
+    width: 440px; /* Fixed width */
+    height: 566px; /* Fixed height */
 }
 
 .about-text{
