@@ -50,6 +50,7 @@ font-family: "Ramillas";
     position: relative;
     transition: 0.2s;
     transition: transform 250ms;
+    vertical-align: center;
 }
 
 .nav a:hover:before{
