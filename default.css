@@ -42,6 +42,11 @@ font-family: "Ramillas";
     width: 90%; /* to adjust to the device*/
 }
 
+.nav-pres{
+    display: flex;
+    align-items: center;
+}
+
 .nav { /*Don't forget to add the type of heading or paragraph*/
     color: black;
     font-family: "Aileron";
@@ -50,8 +55,6 @@ font-family: "Ramillas";
     position: relative;
     transition: 0.2s;
     transition: transform 250ms;
-    display: flex;
-    align-items: center;
 }
 
 .nav a:hover:before{
