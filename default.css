@@ -61,13 +61,13 @@ font-family: "Ramillas";
 }
 
 a:link{
-    text-decoration: none;
     color: black;
+    text-decoration: none;
 }
 
 a:visited{
-    text-decoration: none;
     color: black;
+    text-decoration: none;
     display: inline-block; /*creates boxes that automatically wrap text 
     to give them space and set them apart when beside other content.*/
 }
