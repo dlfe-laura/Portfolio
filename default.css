@@ -125,6 +125,10 @@ a:active{
 
 /*CONTACT PAGE*/
 
+.how-to{
+    margin-right: 75pt;
+}
+
 .logos-contact {
     display: flex;
     justify-content: center; /* Center align the logos */
@@ -143,10 +147,6 @@ a:active{
 
 .container a:hover{
     opacity: 0.85;
-}
-
-.how-to{
-    margin-right: 75pt;
 }
 
 /*PROJECTS PAGE*/
