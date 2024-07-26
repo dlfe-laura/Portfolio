@@ -108,11 +108,14 @@ a:active{
 }
 
 .about-pic{
-    object-fit: cover;
-    max-width: 100%;
-    height: auto;
     position: sticky;
     top: 10px;
+}
+
+.about-pic img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .about-text{
