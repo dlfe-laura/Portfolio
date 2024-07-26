@@ -108,13 +108,10 @@ a:active{
 }
 
 .about-pic{
-    position: sticky;
-    top: 10px;
-}
-
-.about-pic img{
     width: 440px; /* Fixed width */
     height: 566px; /* Fixed height */
+    position: sticky;
+    top: 10px;
 }
 
 .about-text{
