@@ -39,6 +39,7 @@ font-family: "Ramillas";
 .wrapper {
     margin: auto;
     margin-left: 75pt;
+    margin-right: 45pt;
     width: 90%; /* to adjust to the device*/
 }
 
