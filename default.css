@@ -159,8 +159,15 @@ h3{
 }
 
     /*EDIT FOR THE BUTTONS OF THE PROJECTS PAGE*/
-
-.project-button{
+    
+a.project-button{
+        color: #ffde59;
+        background-color: #10464C;
+        padding: 10px 20px;
+        border-radius: 4px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
         transition: transform 0.3s ease-in-out;
 }
 
@@ -169,7 +176,7 @@ h3{
     color: black;
 }
 
-.project-button a:hover{
+.project-button hover{
     transform: scale(1.2);
 }
 
@@ -177,14 +184,5 @@ h3{
     text-decoration: none;
 }
 
-a.project-button{
-    color: #ffde59;
-    background-color: #10464C;
-    padding: 10px 20px;
-    border-radius: 4px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
 
 
