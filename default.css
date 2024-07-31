@@ -161,10 +161,11 @@ h3{
     /*EDIT FOR THE BUTTONS OF THE PROJECTS PAGE*/
 
 a.project-button{
-    color: #10464C;
+    color: #ffde59;
+    background-color: #10464C;
     padding: 10px 20px;
-    border: 1px outset;
-    border-radius: 3px;
+    /*border: 1px outset;*/
+    /*border-radius: 3px;*/
     text-align: center;
     text-decoration: none;
     display: inline-block;
