@@ -180,18 +180,18 @@ a.project-button{
         transition: transform 0.3s ease-in-out;
 }
 
-.project-button a:link, a:visited{
+/*.project-button a:link, a:visited{
     text-decoration: none;
     color: #ffde59;
-}
+}*/
 
 .project-button hover{
     transform: scale(1.2);
 }
 
-.project-button a:active{
+/*.project-button a:active{
     text-decoration: none;
-}
+}*/
 
 
 
