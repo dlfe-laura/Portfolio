@@ -157,3 +157,20 @@ h3{
     font-family: Tahoma, Verdana, Geneva, sans-serif;
     font-size: medium;
 }
+
+.project-button{
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-button a:link, a:visited, a:active{
+    background-color: #10464C;
+    color: #ffde59;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.project-button a:hover{
+    transform: scale(1.2);
+}
