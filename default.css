@@ -160,21 +160,22 @@ h3{
 
     /*EDIT FOR THE BUTTONS OF THE PROJECTS PAGE*/
 
-a.project-button{
-    color: #ffde59;
-    background-color: #10464C;
-    padding: 10px 20px;
-    /*border: 1px outset;*/
-    /*border-radius: 3px;*/
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-
 .project-button{
-    transition: transform 0.3s ease-in-out;
+        transition: transform 0.3s ease-in-out;
 }
 
 .project-button a:hover{
     transform: scale(1.2);
 }
+
+a.project-button{
+    color: #ffde59;
+    background-color: #10464C;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
