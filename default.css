@@ -39,7 +39,6 @@ font-family: "Ramillas";
 .wrapper {
     margin: auto;
     margin-left: 75pt;
-    margin-right: 45pt;
     width: 90%; /* to adjust to the device*/
 }
 
@@ -151,4 +150,10 @@ a:active{
 
 .tdsr{
     text-align: right;
+}
+
+h3{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
 }
