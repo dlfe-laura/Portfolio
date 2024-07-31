@@ -107,7 +107,7 @@ a:active{
     column-gap: 20px;
 }
 
-.about-pic{
+.about-container img{
     width: 440px; /* Fixed width */
     height: 566px; /* Fixed height */
     position: sticky;
