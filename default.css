@@ -156,6 +156,10 @@ a:active{
     column-gap: 20px;
     }
 
+.tdsr-pic{
+    scale: 20%;
+}
+
 h3{
     color: black;
     font-family: Tahoma, Verdana, Geneva, sans-serif;
