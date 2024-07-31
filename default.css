@@ -134,6 +134,7 @@ a:active{
 }
 
 .logos-contact .container {
+    margin-right: 45pt;
     display: flex;
 }
 
