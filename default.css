@@ -157,7 +157,8 @@ a:active{
     }
 
 .tdsr-pic{
-    scale: 20%;
+    width: 540px;
+    height: auto;
 }
 
 h3{
