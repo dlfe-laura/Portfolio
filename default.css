@@ -173,7 +173,7 @@ a.project-button{
 
 .project-button a:link, a:visited{
     text-decoration: none;
-    color: black;
+    color: #ffde59;
 }
 
 .project-button hover{
