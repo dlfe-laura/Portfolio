@@ -164,8 +164,17 @@ h3{
         transition: transform 0.3s ease-in-out;
 }
 
+.project-button a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+
 .project-button a:hover{
     transform: scale(1.2);
+}
+
+.project-button a:active{
+    text-decoration: none;
 }
 
 a.project-button{
