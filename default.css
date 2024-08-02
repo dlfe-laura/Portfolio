@@ -207,7 +207,7 @@ a.project-button{
 }
 
 a.project-button:hover{
-    transform: scale(0.3);
+    transform: scale(1.05);
 }
 
 
