@@ -107,6 +107,11 @@ a:active{
     column-gap: 20px;
 }
 
+.about-pic {
+    /* Container for the image */
+    position: relative; /* Ensure the sticky image is positioned correctly within this container */
+}
+
 .about-container img{
     width: 100%; /* Fixed width */
     height: auto; /* Fixed height */
@@ -161,7 +166,7 @@ a:active{
 .tdsr img{
     width: 600px;
     height: auto;
-    border-radius: 4px; /*to round the corners*/
+    border-radius: 8px; /*to round the corners*/
 }
 
 .voices{
@@ -174,7 +179,7 @@ a:active{
 .voices img{
     width: 600px;
     height: auto;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
 h3{
