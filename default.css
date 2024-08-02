@@ -110,10 +110,10 @@ a:active{
 .about-container img{
     width: 100%; /* Fixed width */
     height: auto; /* Fixed height */
-    position: sticky;
-    top: 10px;
     border-radius: 8px; /* Optional: rounded corners */
     object-fit: cover; /* Ensure the image covers the container without distortion */
+    position: sticky;
+    top: 10px;
 }
 
 .about-text{
