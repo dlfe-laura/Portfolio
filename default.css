@@ -206,7 +206,7 @@ a.project-button{
     clear: both;
 }
 
-.project-button hover{
+a.project-button:hover{
     transform: scale(1.2);
 }
 
