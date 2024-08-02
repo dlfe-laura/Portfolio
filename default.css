@@ -104,7 +104,7 @@ a:active{
     display: grid;
     align-items: start;/* Align items at the start of each row */
     grid-template-columns: 440px 1fr; /* First column fixed at 460px, others flexible */
-    column-gap: 40px;
+    column-gap: 20px;
 }
 
 .about-container img{
