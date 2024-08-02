@@ -110,12 +110,14 @@ a:active{
 .about-container img{
     width: 100%; /* Fixed width */
     height: auto; /* Fixed height */
-    border-radius: 4px; /* Optional: rounded corners */
+    position: sticky;
+    top: 10px;
+    border-radius: 8px; /* Optional: rounded corners */
     object-fit: cover; /* Ensure the image covers the container without distortion */
 }
 
 .about-text{
-    grid-column: 2 / 3; /* Text spans two columns */
+    grid-column: 2 / 3; /* Span across the second column (text column) */
     margin-right: 45pt;
 }
 
