@@ -104,12 +104,18 @@ a:active{
     display: grid;
     align-items: start;/* Align items at the start of each row */
     grid-template-columns: 440px 1fr; /* First column fixed at 460px, others flexible */
-    column-gap: 20px;
+    column-gap: 40px;
+}
+
+.about-pic {
+    /* Container for the image */
+    position: relative; /* Relative positioning for the container */
 }
 
 .about-container img{
     width: 100%; /* Fixed width */
     height: auto; /* Fixed height */
+    max-height: 100%;
     border-radius: 8px; /* Optional: rounded corners */
     object-fit: cover; /* Ensure the image covers the container without distortion */
 }
