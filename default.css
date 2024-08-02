@@ -186,24 +186,30 @@ a.project-button{
         background-color: #10464C;
         padding: 10px 20px;
         border-radius: 4px;
-        text-align: center;
+        text-align: center; 
         text-decoration: none;
         display: inline-block;
         transition: transform 0.3s ease-in-out;
 }
 
-/*.project-button a:link, a:visited{
-    text-decoration: none;
-    color: #ffde59;
-}*/
+.align-right {
+    float: right;
+}
+
+.align-left {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 .project-button hover{
     transform: scale(1.2);
 }
 
-/*.project-button a:active{
-    text-decoration: none;
-}*/
 
 
 
