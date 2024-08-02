@@ -153,20 +153,20 @@ a:active{
     display: grid;
     align-items: start;/* Align items at the start of each row */
     grid-template-columns: 1fr 1fr; /* Two equal columns */
-    column-gap: 20px;
+    column-gap: 40px;
     }
 
 .tdsr img{
     width: 600px;
     height: auto;
-    border-radius: 4px;
+    border-radius: 4px; /*to round the corners*/
 }
 
 .voices{
     display: grid;
     align-items: start;/* Align items at the start of each row */
     grid-template-columns: 1fr 1fr; /* Two equal columns */
-    column-gap: 20px;
+    column-gap: 40px;
 }
 
 .voices img{
