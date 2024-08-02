@@ -189,7 +189,7 @@ a.project-button{
         text-align: center; 
         text-decoration: none;
         display: inline-block;
-        transition: transform 0.3s ease-in-out;
+        transition: transform 0.2s ease-in-out;
 }
 
 .align-right {
@@ -207,7 +207,7 @@ a.project-button{
 }
 
 a.project-button:hover{
-    transform: scale(1.2);
+    transform: scale(0.7);
 }
 
 
