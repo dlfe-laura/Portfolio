@@ -107,18 +107,11 @@ a:active{
     column-gap: 40px;
 }
 
-.about-pic {
-    /* Container for the image */
-    position: relative; /* Ensure the sticky image is positioned correctly within this container */
-}
-
 .about-container img{
     width: 100%; /* Fixed width */
     height: auto; /* Fixed height */
     border-radius: 8px; /* Optional: rounded corners */
     object-fit: cover; /* Ensure the image covers the container without distortion */
-    position: sticky;
-    top: 10px;
 }
 
 .about-text{
