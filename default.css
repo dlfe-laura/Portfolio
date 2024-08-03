@@ -124,6 +124,7 @@ a:active{
 .about-text{
     grid-column: 2 / 3; /* Span across the second column (text column) */
     margin-right: 45pt;
+    font-size: large;
 }
 
 /*CONTACT PAGE*/
