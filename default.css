@@ -160,10 +160,8 @@ a:active{
     align-items: start;/* Align items at the start of each row */
     grid-template-columns: 1fr 1fr; /* Two equal columns */
     column-gap: 40px;
-    border: 8px solid #10464C;
-    border-radius: 8px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    border: 2px solid #10464C;
+    padding: 20px;
     }
 
 .tdsr img{
@@ -177,6 +175,8 @@ a:active{
     align-items: start;/* Align items at the start of each row */
     grid-template-columns: 1fr 1fr; /* Two equal columns */
     column-gap: 40px;
+    border: 2px solid #10464C;
+    padding: 20px;
 }
 
 .voices img{
