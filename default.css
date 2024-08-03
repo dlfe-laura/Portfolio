@@ -179,10 +179,10 @@ a:active{
     align-items: start;/* Align items at the start of each row */
     grid-template-columns: 1fr 1fr; /* Two equal columns */
     column-gap: 40px;
-    border: 3px solid #10464C;
+    border: 3px solid #10464c;
     border-radius: 10px;
     padding: 20px;
-    background-color: rgba(255,222,89, .3);
+    background-color: rgba(16,70,76 .3);
 }
 
 .voices img{
