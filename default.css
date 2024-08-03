@@ -118,7 +118,7 @@ a:active{
     height: auto; /* Fixed height */
     max-height: 100%;
     border-radius: 8px; /* Optional: rounded corners */
-    object-fit: contain; /* Ensure the image covers the container without distortion */
+    object-fit: cover; /* Ensure the image covers the container without distortion */
 }
 
 .about-text{
