@@ -163,9 +163,7 @@ a:active{
     border: 3px solid #10464C;
     border-radius: 10px;
     padding: 20px;
-    background-color: rgba(255,222,89, .8);
-    color: #ffde59;
-
+    background-color: rgba(255,222,89, .3);
     }
 
 .tdsr img{
@@ -182,8 +180,7 @@ a:active{
     border: 3px solid #10464C;
     border-radius: 10px;
     padding: 20px;
-    background-color: rgba(255,222,89, .8);
-    color: #ffde59;
+    background-color: rgba(255,222,89, .3);
 }
 
 .voices img{
