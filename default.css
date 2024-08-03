@@ -111,6 +111,8 @@ a:active{
 .about-pic {
     /* Container for the image */
     position: relative; /* Relative positioning for the container */
+    width: 440px;
+    height: auto;
 }
 
 .about-container img{
@@ -118,7 +120,7 @@ a:active{
     height: auto; /* Fixed height */
     max-height: 100%;
     border-radius: 8px; /* Optional: rounded corners */
-    object-fit: cover; /* Ensure the image covers the container without distortion */
+    object-fit: contain; /* Ensure the image covers the container without distortion */
 }
 
 .about-text{
