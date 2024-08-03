@@ -111,8 +111,6 @@ a:active{
 .about-pic {
     /* Container for the image */
     position: relative; /* Relative positioning for the container */
-    width: 440px;
-    height: auto;
 }
 
 .about-container img{
