@@ -39,6 +39,7 @@ font-family: "Ramillas";
 .wrapper {
     margin: auto;
     margin-left: 75pt;
+    margin-right: 75pt;
     width: 90%; /* to adjust to the device*/
 }
 
@@ -210,10 +211,6 @@ a.project-button{
 
 .align-right {
     float: right;
-}
-
-.align-left {
-    float: left;
 }
 
 .clearfix::after {
