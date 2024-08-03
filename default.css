@@ -164,6 +164,7 @@ a:active{
     border-radius: 10px;
     padding: 20px;
     background-color: rgba(255,222,89, .8);
+    color: #ffde59;
 
     }
 
@@ -182,6 +183,7 @@ a:active{
     border-radius: 10px;
     padding: 20px;
     background-color: rgba(255,222,89, .8);
+    color: #ffde59;
 }
 
 .voices img{
