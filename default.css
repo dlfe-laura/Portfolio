@@ -117,7 +117,7 @@ a:active{
     width: 100%; /* Fixed width */
     height: auto; /* Fixed height */
     max-height: 100%;
-    border-radius: 8px; /* Optional: rounded corners */
+    border-radius: 8px; /* Rounded corners */
     object-fit: cover; /* Ensure the image covers the container without distortion */
 }
 
@@ -185,6 +185,18 @@ a:active{
     border-radius: 10px;
     padding: 20px;
     background-color: rgba(255,255,255, .3);
+    animation-name: voices; /*Animation name*/
+    animation-duration: .5s;
+
+}
+
+@keyframes voices {
+    from {
+        margin-left: -100%;
+    }
+    to {
+        margin-left: 0%;
+    }
 }
 
 .voices img{
