@@ -167,7 +167,7 @@ a:active{
     border-radius: 10px;
     padding: 20px;
     background-color: rgba(255,255,255, .3);
-    animation: tdsr 1s forwards;
+    animation: tdsr 2s forwards;
     }
 
 @keyframes tdsr {
@@ -197,7 +197,7 @@ a:active{
     border-radius: 10px;
     padding: 20px;
     background-color: rgba(255,255,255, .3);
-    animation: voices 1s forwards;
+    animation: voices 2s forwards;
 
 }
 
