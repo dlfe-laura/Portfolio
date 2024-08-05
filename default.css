@@ -34,7 +34,7 @@ font-family: "Ramillas";
 }
 
 
-/* Let's organize the text and pictures (class)*/
+/* INDEX PAGE*/
 
 .wrapper {
     margin: auto;
@@ -97,6 +97,23 @@ a:active{
     align-items: center; /* for center of page */
     display: flex;
     justify-content: center; /* align horizontal */
+}
+
+.muscle{
+    width: 32px; /* width of a single frame */
+    height: 32px; /* height of a single frame */
+    background-image: url('muscle.png');
+    background-size: cover;
+    animation: run-animation 1s steps(4) infinite;
+}
+
+@keyframes run-animation {
+    from {
+        background-position: 0;
+    }
+    to {
+        background-position: -192px; /* width of sprite sheet */
+    }
 }
 
 /*ABOUT ME PAGE*/
