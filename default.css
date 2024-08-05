@@ -100,9 +100,9 @@ a:active{
 }
 
 .muscle{
-    width: 32px; /* width of a single frame */
-    height: 32px; /* height of a single frame */
-    background-image: url('muscle.png');
+    width: 48px; /* width of a single frame */
+    height: 48px; /* height of a single frame */
+    background-image: url('muscle.gif');
     background-size: cover;
     animation: run-animation 1s steps(4) infinite;
 }
