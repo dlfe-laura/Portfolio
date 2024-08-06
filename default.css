@@ -115,7 +115,7 @@ a:active{
         background-position: 0;
     }
     to {
-        background-position: -192px; /* width of sprite sheet */
+        background-position: -32px; /* width of sprite sheet */
     }
 }
 
