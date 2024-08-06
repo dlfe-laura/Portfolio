@@ -104,7 +104,7 @@ a:active{
     height: 48px; /* height of a single frame */
     background-image: url('Botón.gif');
     background-size: cover;
-    position: fixed;
+    position: absolute;
     bottom: 0px;
     right: 0px;
     animation: run-animation 1s steps(4) infinite;
@@ -115,7 +115,7 @@ a:active{
         background-position: 0;
     }
     to {
-        background-position: -32px; /* width of sprite sheet */
+        background-position: -192px; /* width of sprite sheet */
     }
 }
 
