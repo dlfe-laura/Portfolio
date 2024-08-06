@@ -100,10 +100,13 @@ a:active{
 }
 
 .muscle{
-    width: 48px; /* width of a single frame */
-    height: 48px; /* height of a single frame */
-    background-image: url('muscle.gif');
+    width: 128px; /* width of a single frame */
+    height: 128px; /* height of a single frame */
+    background-image: url('Botón.gif');
     background-size: cover;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
     animation: run-animation 1s steps(4) infinite;
 }
 
