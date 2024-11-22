@@ -13,6 +13,11 @@ body{background-color: #ffde59;
     font-style: normal;
     src:local("Ramillas-Regular") url(https://raw.githack.com/dlfe-laura/Portfolio/main/Ramillas-Regular.ttf), format("truetype");
 }
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    src: local("Poppins") url(https://github.com/dlfe-laura/Portfolio/blob/main/Poppins-Medium.ttf), format("truetype");
+}
 
 /*Set h1, h2*/
 h1, h2 {color: black;
